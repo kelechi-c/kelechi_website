@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Monaco";
+    src: url('Monaco400.ttf')  format('truetype');
+  }
+
 body{
     background-color: black;
     color: whitesmoke;
     padding: 1rem 4rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Monaco';
     min-height: 100vh;
 }
 
@@ -11,11 +16,11 @@ h1{
 }
 
 main section{
-    font: 1em sans-serif;
+    font: 'Monaco' sans-serif;
 }
 
-.intro{
-    font-weight: 550;
+.intro_phase{
+    font-weight: bold;
     text-align: center;
 }
 
@@ -33,11 +38,10 @@ a, a:link, a:visited {
 }
 
 ul{
-    padding: 0;
+    padding: 0 1.3rem;
 }
 
 li{
-    list-style-position: inside;
     margin: 1rem 0;
 }
 
@@ -48,13 +52,34 @@ main.title{
 .projects{
     margin: 2em 0;
 }
+.projects h3{
+    color: azure;
+    font-size: ;
+}
+
+.projects article{
+    padding-bottom: 0.5rem;
+}
 
 span.codename{
     color: rgb(114, 152, 254);
     font: bold 500;
 }
 
-footer{
-    margin-bottom: 0%;
-    /* position: relative; */
+.c_link a{
+    text-decoration: underline;
 }
+
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 0 15%;
+    }
+  }
+  
+  /* Media query for phones */
+  @media screen and (min-width: 480px) {
+    body {
+      padding: 0 10px;
+    }
+  }
