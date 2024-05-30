@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+main section{
+    font: 1em sans-serif;
+}
+
+.intro{
+    font-weight: 550;
+    text-align: center;
+}
+
+.my_name{
+    font-size: 2em;
+}
+
+a, a:link, a:visited {
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 1rem 0;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-position: inside;
+    margin: 1rem 0;
+}
+
+main.title{
+    color: rgb(114, 152, 254);
+}
+
+.projects{
+    margin: 2em 0;
+}
+
+span.codename{
+    color: rgb(114, 152, 254);
+    font: bold 500;
+}
+
+footer{
+    margin-bottom: 0%;
+    /* position: relative; */
+}
