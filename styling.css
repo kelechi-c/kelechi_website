@@ -20,6 +20,10 @@ main section{
     font: 'Monaco' sans-serif;
 }
 
+.intro{
+    padding: 1rem 0;
+}
+
 .intro, .intro h3, .intro p{
     text-align: left;
 }
@@ -112,10 +116,11 @@ div.c_link{
     }
 
     h1{
+        padding-top: 1rem;
         text-align: center;
     }
 
-    .intro{
+    .intro, .intro h3, .intro p{
         text-align: center;
     }
 
