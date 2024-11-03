@@ -74,7 +74,7 @@ main.title{
     padding-bottom: 0.5rem;
 }
 
-span.codename{
+span.codename, li.artlink a{
     color: rgb(114, 152, 254);
     font: bold 500;
 }
